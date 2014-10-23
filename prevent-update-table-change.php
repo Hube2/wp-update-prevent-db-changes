@@ -8,6 +8,9 @@
     Author: John A. Huebner II
     Author URI: https://github.com/Hube2
     License: GPL v2 or later
+    
+    For this plugin to work it must be located in your Must Use Plugins folder
+    usually /wp-content/mu-plugins/
   */
 	
 	new prevent_update_table_change();
