@@ -14,4 +14,4 @@ to what WP thinks it should be?
 Add this file to the mu-plugins (wp-content/mu-plugins) folder on your site and modify the dbdelta_queries 
 method to change the default WP DB schema so that your changes are not reset to the WP defaults.
 
-The current method includes the alteration I mentioned above for the option_name column.
+***Use this to manage db schema changes at your own risk! Before applying DB changes, always back up your database!***
