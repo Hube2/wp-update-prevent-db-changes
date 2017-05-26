@@ -25,7 +25,7 @@
 			//echo '<pre>'; print_r($queries); die;
 			if (is_array($queries) && count($queries)) {
 				foreach ($queries as $key => $query) {
-					$query = preg_replace('/option_name\s+varchar\s*\([^\)]*\)/is', 'option_name varchar(255)', $query);
+					$query = preg_replace('/meta_key\s+varchar\s*\(255\)/is', 'meta_key varchar(191)', $query);
 					$queries[$key] = $query;
 				}
 			}
